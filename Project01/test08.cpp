@@ -2,11 +2,15 @@
 
 using namespace std;
 
+// \O/ //
+//  |  //
+// / \ //
+
 int* test08() {
-					  // \O/ //
-	int number = 100; //  |  //
-					  // / \ //
-	return &number;	  // так нельзя
+									
+	static int number = 100;		
+									
+	return &number;			
 }
 
 int main() {
