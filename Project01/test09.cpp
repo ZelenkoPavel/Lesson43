@@ -25,11 +25,18 @@ int main() {
 
 	int* pointer = new int[size];
 
-	cout << pointer << endl;
-	cout << pointer + 1 << endl;
-	cout << pointer + 2 << endl;
-	cout << pointer + 3 << endl;
-	cout << pointer + 4 << endl;
+	for (int i = 0; i < size; i++)
+	{
+		*(pointer + i) = rand() % 100;
+	}
+
+	cout << "Dynamic array elements: ";
+	for (int i = 0; i < size; i++)
+	{
+		cout << *(pointer + i) << " ";
+	}
+
+	delete[] pointer;
 
 	return 0;
 }
