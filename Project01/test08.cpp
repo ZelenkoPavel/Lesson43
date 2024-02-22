@@ -16,7 +16,7 @@ int main() {
 	cout << "Adress: " << result << endl;
 	cout << "Value: " << *result << endl;
 
-	delete result;
+	//delete result;
 
 	return 0;
 }
