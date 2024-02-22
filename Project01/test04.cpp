@@ -2,7 +2,7 @@
 //
 //using namespace std;
 //
-//void swao(int a, int b) {
+//void swap(int a, int b) {
 //	int t = a;
 //	a = b;
 //	b = t;
@@ -16,7 +16,7 @@
 //
 //	cout << "Before x = " << x << " y = " << y << endl;
 //
-//	swao(x, y);
+//	swap(x, y);
 //
 //	cout << "After x = " << x << " y = " << y << endl;
 //
